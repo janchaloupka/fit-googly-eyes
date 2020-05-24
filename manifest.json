@@ -4,7 +4,7 @@
 	"name": "VUT FIT Googly Eyes",
 	"author": "Jan Chaloupka",
 	"version": "0.1.0",
-	"description": "Simple extensions that brings back legendary mouse tracking eyes.",
+	"description": "Simple extension that brings back legendary mouse tracking eyes.",
 	"permissions": [
 		"storage"
 	],
