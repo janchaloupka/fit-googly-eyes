@@ -1,0 +1,32 @@
+{
+	"manifest_version": 2,
+
+	"name": "VUT FIT Googly Eyes",
+	"author": "Jan Chaloupka",
+	"version": "0.1.0",
+	"description": "Simple extensions that brings back legendary mouse tracking eyes.",
+	"permissions": [
+		"storage"
+	],
+
+	"icons": {
+		"16": "icon-16.png",
+		"48": "icon-48.png",
+		"128": "icon-128.png"
+	},
+
+	"content_scripts": [
+		{
+			"js": ["content.js"],
+			"matches": [
+				"*://*.fit.vutbr.cz/*",
+				"*://*.fit.vut.cz/*"
+			]
+		}
+	],
+
+	"options_ui": {
+		"page": "options.html",
+		"open_in_tab": false
+	}
+}
